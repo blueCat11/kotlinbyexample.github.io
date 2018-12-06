@@ -1,6 +1,6 @@
 # When
 
-Kotlin do not have `switch` statement, instead of it it has more smart and clear `when` construction. Let's take a look
+Kotlin does not have `switch` statement, instead, it has the more smart and clear `when` construction. Let's take a look
 
 <div class="language-kotlin" theme="idea" data-min-compiler-version="1.3">
 
@@ -29,8 +29,8 @@ class MyClass
 </div>
 
 
-1. Check whether `obj` equals to `1`
+1. Check whether `obj` is equal to `1`
 2. Check for string
 3. Or even instance check
 4. Negative instance check
-5. Default statement (might be omitted)
+5. Default statement (may be omitted)
