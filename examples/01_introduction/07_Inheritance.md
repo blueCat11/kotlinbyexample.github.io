@@ -27,8 +27,8 @@ fun main() {
     class, it must be marked with the `open` modifier.
 2. Kotlin methods are also _final_ by default. As with the classes, the `open`
     modifier allows overriding them.
-3. A class is overriding by following the subclass name with
-    `: SuperclassName()`. The empty parentheses `()` indicate an invocation to
+3. A class is overridden by following the subclass name with
+    `: SuperclassName()`. The empty parentheses `()` indicate an invocation of
     the default constructor of the superclass.
 4. Overriding methods or attributes requires the `override` modifier.
 
