@@ -1,8 +1,7 @@
 # Data classes
 
 _Data classes_ make it easy to declare classes that are used to store some values.
-Everything that's needed to use them in collections, have a useful string
-representation, and create copies is auto-generated.
+Some standard functionality is auto-generated, such as a useful string representation and everything that's needed to use the _data classes_ in collections or create copies.
 
 <div class="language-kotlin" theme="idea" data-min-compiler-version="1.3">
 
