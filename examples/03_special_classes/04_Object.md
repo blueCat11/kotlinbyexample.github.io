@@ -31,19 +31,19 @@ fun main(){
 3. instance creation
 4. method calls 
 
-Easy: we create two objects, both *instances* of LuckDispatcher class.
+Easy: We create two objects, both *instances* of LuckDispatcher class.
 
-In Kotlin you have also an **object** keyword. What is? is a *data type with a single implementation*.
+In Kotlin you have also an **object** keyword. What is it? It is a *data type with a single implementation*.
 
-If you are a Java user and want to understand what "*single*" means, you can think to Singleton pattern:
-it allows you to check that one (and only one) instance of that class will be created, even if 2 threads access it.
+If you are a Java user and want to understand what "*single*" means, you can think about the Singleton pattern:
+It allows you to assure that one (and only one) instance of that class will be created, even if 2 threads access it.
 
 To achieve that in Kotlin, you only need to declare an **object**: no class, no constructor, only a lazy instance.
-Why lazy? because it will be created one time, if object is used, otherwise, no.
+Why lazy? Because it will be created once, when the object is used, otherwise, not.
 
 In this example, you see a typical basic usage of an **object expression**: a simple object/properties structure.
-No need of class declaration: create a single object, declare members and access it. 
-Object like that, is often used like anonymous class in Java.
+No need of a class declaration: create a single object, declare members and access it. 
+An object like that is often used like an anonymous class in Java.
 
 <div class="language-kotlin" theme="idea" data-min-compiler-version="1.3">
 
@@ -77,7 +77,7 @@ fun main(){
 5. Access the instance (initialization), calling fun
 
 
-You can have also **object declaration**: is not an expression, and cannot be used in a variable assignment, must be used directly:
+You can also have an **object declaration**: it's not an expression, and cannot be used in a variable assignment, but must be used directly:
 
 <div class="language-kotlin" theme="idea" data-min-compiler-version="1.3">
 
@@ -104,8 +104,8 @@ fun main(){
 
 
 
-An object declaration, inside a class, defines another useful case: the **companion object**. 
-Syntactically similar to the static methods in Java, you call object's members using the *class* as qualifier.
+An object declaration inside a class, defines another useful case: the **companion object**. 
+Syntactically similar to the static methods in Java, you call an object's members using the *class* as qualifier.
 In Kotlin, before defining a companion object, decide whether it is better to write a simple *package-level* function.  
 
 <div class="language-kotlin" theme="idea" data-min-compiler-version="1.3">
